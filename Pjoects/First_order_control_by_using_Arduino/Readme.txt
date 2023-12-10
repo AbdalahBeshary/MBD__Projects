@@ -1,1 +1,1 @@
-
+In this part we used arduino to see response of closed loop and open loop for RC circuit and applied P controler for closed oop and open loop , to understand behaviour of system, which appear in image
