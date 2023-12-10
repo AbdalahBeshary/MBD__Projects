@@ -1,1 +1,31 @@
+Requirements 
+Design couter up subsystem with traffic light contain:
+
+This counter hass three options as input
+
+1- start button
+
+2- Step_size button
+
+3- Reset button
+
+
+
+Output
+
+counting_Result
+
+
+
+
+Task of each input
+
+1-start button 
+
+-Activation case :start count up
+-Disactivate case: counter should  held the present value
+
+2-Step_size:how much step requird per step time of system
+
+3-Reset: make counter_start from zero again
 
