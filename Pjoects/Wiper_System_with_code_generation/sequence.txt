@@ -1,0 +1,62 @@
+											Wiper System
+
+
+
+Inputs
+
+1-Mode_of_operations  (OFF-Auto -LowSpeed-HighSpeed)
+
+2-Rain_sensor_error
+
+3-Rain_denstiy 
+
+
+Outputs
+
+1-PWM(speed_control)
+
+2-Wiper_indcation
+
+
+
+sequence of Operation
+
+1- operation mode (OFF) : then PWM=0, wiper_indcation=0
+
+2- operation mode (LowSpeed): then PWM=0.4, wiper_indcation=1
+
+3- operation mode (HighSpeed): then PWM=0.7, wiper_indcation=1
+
+4- operation mode (Auto)  ,
+
+if(Rain_sensor_error ==1)
+
+PWM=0
+
+else((Rain_sensor_error==0)
+
+if (Rain_density==[0,256,512,768,1023)
+PWM=[0 64 128 192 256]/256 
+
+
+
+
+
+
+
+after this step  and make many congiguration step it will generate code we will use in  arduino ide and proteus
+
+
+
+
+
+
+
+
+
+
+Low speed mode increase until reach high speed
+
+
+
+
